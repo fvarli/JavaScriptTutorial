@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+
+<form name="Enter_Area">
+    <fieldset> <legend>User Enter Area</legend>
+    Username : <input type="text" name="username">
+    <br>
+    <br>
+    Password : <input type="password" name="password">
+    <br>
+    <br>
+    <input type="button" value="Submit">
+    </fieldset>
+</form>
+<hr>
+<form name="Survey_Area">
+    <fieldset> <legend>Survey Area</legend>
+        Where do you live?*
+        <br>
+        <br>
+        <input type="checkbox" name="address" value="Turkey">Turkey
+        <input type="checkbox" name="address" value="Slovenia">Slovenia
+        <input type="checkbox" name="address" value="United States">United States
+        <input type="checkbox" name="address" value="Other">Other
+
+    </fieldset>
+</form>
+<br>
+<br>
+
+<script src="js_files/forms.js"></script>
+
+<input type="button" value="check" onclick="checker();">
+
+</body>
+</html>

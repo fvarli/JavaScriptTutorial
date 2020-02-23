@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Handler</title>
+</head>
+<body onload="loadpagemessage();" onunload="unloadpagemessage();" onscroll="scrollmessage();">
+
+<script src="js_files/eventhandler.js"></script>
+
+<form>
+    <input type="button" value="Button" onclick="alert('You clicked the button.')">
+
+    <input type="button" value="Get SQRT" onclick="sqrt()">
+
+    <hr>
+
+    This is my <a href="https://ferzendervarli.com" onmousemove="alert('This is correct website.')" target="_blank">website</a>.
+
+    <hr>
+
+    This is not my <a href="#" onmousemove="alert('This is wrong website.')" target="_blank">website</a>.
+
+    <hr>
+
+    This is my <a href="https://ferzendervarli.com">website</a>.
+
+    <hr>
+
+</form>
+
+</body>
+</html>

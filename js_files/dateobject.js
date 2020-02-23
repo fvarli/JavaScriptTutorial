@@ -18,7 +18,7 @@
 
     document.write("<hr>");
 
-    function checkage() {
+  /*  function checkage() {
         var birthyear = prompt("Enter your birth year");
         var currentdate = new Date();
         var limitedyear = currentdate.getFullYear() - 18;
@@ -30,3 +30,22 @@
     }
     checkage();
 
+    document.write("<hr>");
+    */
+
+    //timekeeper setInterval and  Global/Local variable
+   /* var second = 0;
+
+    function timekeeper(){
+        var min = Math.floor(second/60);
+        var hour = Math.floor(second/3600);
+        var min = min%60;
+        var sec = second%60;
+
+        document.write(hour + "." + min + "." + sec);
+        second++;
+        document.write("<br>");
+    }
+
+    setInterval("timekeeper()",1000);
+    */
